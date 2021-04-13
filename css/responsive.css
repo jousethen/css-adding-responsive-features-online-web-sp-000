@@ -31,6 +31,21 @@
   }
   
   col-3 p {
-    
+  -moz-column-count: 2;
+  -webkit-column-count: 2;
+  column-count: 2;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .wrapper {
+    width: 90%;
+  }
+  
+  #social {
+    position: absolute;
+    top: 82px;
+    right: 4px;
+    width: auto;
   }
 }
